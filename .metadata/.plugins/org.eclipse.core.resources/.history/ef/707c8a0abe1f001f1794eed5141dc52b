@@ -1,0 +1,16 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+
+public class AreaOFRectangle {
+	
+	public static Long findAreaOfRectangle(long a, long b) {
+		
+		
+	}
+	public static void main(String[] args) {
+		long area = 2134;
+		long width = 265;
+
+		System.out.println(findAreaOfRectangle(area,width));
+		 System.out.println("Area of the Rectangle is ");
+	}
+}

@@ -1,0 +1,27 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+//Frequency of a charactier in given string using java 8
+public class FrequencyOfCharactier {
+
+public static void main(String[] args) {
+	String name="JavaProgramming";
+	int[] freq= new int [name.length()];
+	int i, j;
+	char string[]= name.toCharArray();
+	
+	for (i=0; i<name.length(); i++) {
+		
+		freq[i]= 1;
+		for(j=1; j<name.length(); j++) {
+			if(string[i]==string[j]) {
+				freq[i]++;
+				
+				//set string[j] to 0 to avoid printing visited
+				string[j]='0';
+		}
+		
+	}
+	
+}
+	 System.out.println("characters and their corresponding ");
+}
+}

@@ -1,0 +1,12 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+
+public class CheckVowelOrConstant {
+public static void main(String[] args) {
+	String name="chandu";
+	char[] charArray = name.toCharArray();
+	int length = charArray.length;
+	for(int i=0; i<length; i++) {
+		
+	}
+}
+}

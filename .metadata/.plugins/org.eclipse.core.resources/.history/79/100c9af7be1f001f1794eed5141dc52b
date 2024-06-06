@@ -1,0 +1,14 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+
+import java.util.Scanner;
+
+public class AsciValueOFCharactier {
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+             Scanner scanner = new Scanner(System.in);
+             System.out.println("Please enter any Charactier");
+             String nextLine = scanner.nextLine();
+             
+          int asciValue=(int) nextLine;
+	}
+}

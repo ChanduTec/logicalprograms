@@ -1,0 +1,9 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+
+public class AreaOFRectangle {
+	public static void main(String[] args) {
+		long area = 2134;
+		long width = 265;
+
+	}
+}

@@ -1,0 +1,9 @@
+package vamshi_bhavaniCodeing.com.chandu.in;
+
+import java.util.Scanner;
+
+public class AsciValueOFCharactier {
+	public static void main(String[] args) {
+             new Scanner(System.in);
+	}
+}
